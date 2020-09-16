@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "2376945804",
+    "firebase_url": "https://olshoop-d94ac.firebaseio.com",
+    "project_id": "olshoop-d94ac",
+    "storage_bucket": "olshoop-d94ac.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:2376945804:android:f9ba54e0f14142af462ba9",
+        "android_client_info": {
+          "package_name": "id.kardihaekal.olshop"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "2376945804-fn5ghatc711sj34pa183hpc0lj6i392r.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "id.kardihaekal.olshop",
+            "certificate_hash": "6b18520fa36a0f0a5db974274256f26775ae0c8a"
+          }
+        },
+        {
+          "client_id": "2376945804-249ucivsbntnhdk4r6dsem2g4b6hj7o6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAzrIM6oCluigZLNc1b4oCtCc_ee0cIoPc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "2376945804-249ucivsbntnhdk4r6dsem2g4b6hj7o6.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

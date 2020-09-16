@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:columnCount="3"
+  android:rowCount="3"
+  android:orientation="horizontal"
+  tools:context=".Sellers.SellerProductCategoryActivity">
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="#5F9EA0"
+    >
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/t_shirts"
+        android:src="@drawable/t_shirt"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/t_shirts"
+        android:layout_centerHorizontal="true"
+        android:text="Baju"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="#D2691E">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/sports_t_shirts"
+        android:src="@drawable/sports"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sports_t_shirts"
+        android:layout_centerHorizontal="true"
+        android:text="Baju Olahraga"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="#CD5C5C">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/female_dresses"
+        android:src="@drawable/female_dresses"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:textColor="#FFFFFF"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/female_dresses"
+        android:layout_centerHorizontal="true"
+        android:text="Gaun Wanita"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="#B8860B"
+    >
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/sweathers"
+        android:src="@drawable/sweather"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/sweathers"
+        android:layout_centerHorizontal="true"
+        android:text="Switer"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="#2E8B57"
+    >
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/glasses"
+        android:src="@drawable/glasses"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/glasses"
+        android:layout_centerHorizontal="true"
+        android:text="Kacamata"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="#BC8F8F">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/purses_bags_wallets"
+        android:src="@drawable/purses_bags"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/purses_bags_wallets"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="Tas Belanja "/>
+    </RelativeLayout>
+  </FrameLayout><FrameLayout
+  android:layout_columnWeight="1"
+  android:layout_rowWeight="1"
+  android:background="@color/blue_500">
+
+  <RelativeLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <ImageView
+      android:layout_width="50dp"
+      android:layout_height="50dp"
+      android:layout_centerInParent="true"
+      android:id="@+id/hats_caps"
+      android:src="@drawable/hats"/>
+    <TextView
+      android:layout_width="wrap_content"
+      android:layout_marginTop="10dp"
+      android:textSize="15sp"
+      android:layout_height="wrap_content"
+      android:layout_below="@+id/hats_caps"
+      android:layout_centerHorizontal="true"
+      android:textColor="#FFFFFF"
+      android:text="Topi "/>
+  </RelativeLayout>
+</FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="@color/pink_A400">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/headphones_handfree"
+        android:src="@drawable/headphoness"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/headphones_handfree"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="HeadPhone"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="@color/green_A400">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/shoes"
+        android:src="@drawable/shoess"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/shoes"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="Sepatu"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="@color/deep_orange_A400">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/watches"
+        android:src="@drawable/watches"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/watches"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="Jam Tangan"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="@color/purple_500">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/laptop_pc"
+        android:src="@drawable/ic_laptop_mac_black_24dp"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/laptop_pc"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="Laptop"/>
+    </RelativeLayout>
+  </FrameLayout>
+
+  <FrameLayout
+    android:layout_columnWeight="1"
+    android:layout_rowWeight="1"
+    android:background="@color/cyan_500">
+
+    <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="match_parent">
+
+      <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:id="@+id/mobilephones"
+        android:src="@drawable/ic_phone_iphone_black_24dp"/>
+      <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="15sp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/mobilephones"
+        android:layout_centerHorizontal="true"
+        android:textColor="#FFFFFF"
+        android:text="Gadget"/>
+    </RelativeLayout>
+  </FrameLayout>
+</GridLayout>
